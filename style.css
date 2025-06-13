@@ -1,0 +1,119 @@
+ .line{
+            background-color: bisque;
+        }
+        #new{
+            font-family: cursive;
+        }
+        h1{
+            background-color: rgba(0, 162, 255, 0.096);
+        }
+        .parent p{
+            color: chartreuse;
+        }
+
+        p:hover{
+            color: green;
+            background-color: solid black
+        }
+        .border{
+            border: 2px solid aquamarine 
+            padding-left 50pax
+        }
+        .static{
+            position: static;
+        }
+        .position{
+            border: 2px solid violet;
+        }
+        .relative{
+            position: relative;
+            top: 30px ;
+            left: 60px;
+        }
+        .page{
+            height: 100vh;
+        }
+        .sticky{
+            position: sticky;
+            top: 0;
+            font-size: xx-large;
+        } 
+        .inline{
+            display: inline;
+        } 
+        .flex-container{
+            display: flex;
+            /* flex-direction:row-reverse;*/
+            justify-content: space-around;
+            align-items: center;
+            background-color: blanchedalmond;
+            height: 100vh;
+        }
+        .flex-container div{
+            background-color: rgba(215, 215, 250, 0.712);
+            border: 2px solid rgba(42, 71, 165, 0.507);
+            height: 100px;
+            width: 100px;
+        } 
+        .item2{
+            /* flex grow:2; */
+            flex-shrink: 0;
+
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: rgba(0, 0, 0, 0.61);
+            background-color: rgb(127, 246, 255);
+            border-radius: 50px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .flex-container{
+            display: flex;
+            gap: 30px;
+        }
+
+        .grid-container{
+            display: grid;
+            grid-template-rows: 100px 100px 100px 100px ;
+            grid-template-columns: 100px 100px 100px;
+        }
+        .grid-container div{
+
+            background-color: plum;
+            border: 2px solid purple;
+        }
+        .item1{
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        .item2{
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .item3{
+            grid-column-start: 4;
+        }
+        .item4{
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+    
+        
+
+
+        
+
+
+
+
+
+        
+
+
+             
+
+        
